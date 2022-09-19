@@ -1,6 +1,3 @@
-const Math = {};
-
-
 function add(a, b) {
     return (a + b);
 }
@@ -27,11 +24,12 @@ function divide(a, b) {
     }
 }
 
-Math.add = add;
-Math.divide = divide;
-Math.multiply = multiply;
-Math.rest = rest;
-
+const Math = {
+    add,
+    divide,
+    multiply,
+    rest
+};
 /*
 exports.add = add;
 exports.divide = divide;
