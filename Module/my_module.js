@@ -15,3 +15,6 @@ const groups_ = {
 }
 /*This way is the most cute and organizated to exports*/
 module.exports = groups_
+
+/*You only can see the modules that exports, not to the import*/
+console.log(module);
