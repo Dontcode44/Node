@@ -11,7 +11,7 @@ console.log(math.rest(8, 2));
 */
 /*To use the "colors" library from npm, you should use another parenthesis*/
 console.log(("The result of the rest operation, is: " + math.rest(2, 5)).yellow);
-
+console.table(("The result of the rest operation, is: " + math.rest(2, 5)).yellow);
 const person = {
     name: 'Miguel',
     twitter: 'midudev',
