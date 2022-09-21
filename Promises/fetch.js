@@ -9,4 +9,4 @@ async function data() {
         console.log(error);
     }
 }
-data()
+data();
